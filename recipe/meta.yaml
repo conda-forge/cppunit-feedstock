@@ -1,5 +1,5 @@
 {% set name = "cppunit" %}
-{% set version = "1.13.2" %}
+{% set version = "1.14.0" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: http://dev-www.libreoffice.org/src/{{ name }}-{{ version }}.tar.gz
-  sha256: 3f47d246e3346f2ba4d7c9e882db3ad9ebd3fcbd2e8b732f946e0e3eeb9f429f
+  sha256: 3d569869d27b48860210c758c4f313082103a5e58219a7669b52bfd29d674780
 
 build:
   number: 0
