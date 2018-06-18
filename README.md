@@ -14,14 +14,16 @@ Summary: CppUnit is the C++ port of the famous JUnit framework for unit testing
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cppunit-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cppunit-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cppunit-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cppunit-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cppunit-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cppunit-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cppunit-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cppunit-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cppunit/badges/version.svg)](https://anaconda.org/conda-forge/cppunit)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cppunit/badges/downloads.svg)](https://anaconda.org/conda-forge/cppunit)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cppunit-green.svg)](https://anaconda.org/conda-forge/cppunit) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cppunit.svg)](https://anaconda.org/conda-forge/cppunit) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cppunit.svg)](https://anaconda.org/conda-forge/cppunit) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cppunit.svg)](https://anaconda.org/conda-forge/cppunit) |
 
 Installing cppunit
 ==================
