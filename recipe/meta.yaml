@@ -11,21 +11,19 @@ source:
   sha256: 3d569869d27b48860210c758c4f313082103a5e58219a7669b52bfd29d674780
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
 
 requirements:
   build:
   - {{ compiler('c') }}
   - {{ compiler('cxx') }}
-  host:
 
 test:
   commands:
     - test -f $PREFIX/include/cppunit/TestFixture.h
     - test -f $PREFIX/lib/libcppunit.a
-    - test -f $PREFIX/lib/libcppunit.so      # [linux]
-    - test -f $PREFIX/lib/libcppunit.dylib   # [osx]
+    - test -f $PREFIX/lib/libcppunit${SHLIB_EXT}    # [unix]
 
 about:
   home: https://freedesktop.org/wiki/Software/cppunit/
