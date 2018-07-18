@@ -11,8 +11,7 @@ source:
   sha256: 3d569869d27b48860210c758c4f313082103a5e58219a7669b52bfd29d674780
 
 build:
-  number: 1
-  skip: True  # [win]
+  number: 2
 
 requirements:
   build:
@@ -34,3 +33,4 @@ about:
 extra:
   recipe-maintainers:
     - nsoranzo
+    - marcelotrevisani
