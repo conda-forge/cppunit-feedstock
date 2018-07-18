@@ -19,6 +19,7 @@ requirements:
   - {{ compiler('c') }}
   - {{ compiler('cxx') }}
   - automake
+  - m4
 
 test:
   commands:
