@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://freedesktop.org/wiki/Software/cppunit/
-  license: LGPL-2.1
+  license: LGPL-2.1-or-later
   license_file: COPYING
   summary: 'CppUnit is the C++ port of the famous JUnit framework for unit testing'
 
